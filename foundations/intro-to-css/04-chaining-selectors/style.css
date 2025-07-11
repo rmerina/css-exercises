@@ -1,1 +1,13 @@
 /* Add CSS Styling */
+.second .original, .originald {
+    height: 200px;
+    width: 300px;
+}
+.first .avatarproportioned {
+    width: 200px;
+    height: auto;
+}
+.first .avatar {
+    width: 200px;
+    height: 400px;
+}
