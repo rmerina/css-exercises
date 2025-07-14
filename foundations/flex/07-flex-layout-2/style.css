@@ -5,25 +5,75 @@ body {
 }
 
 .header {
-  height: 72px;
+  height: 30px;
   background: darkmagenta;
   color: white;
+  padding: 10px;
+  margin: 0;
+}
+.header .head1 {
+  margin: 0px 10px auto;
+  font-weight: bold;
+  font-size: 20px;
+
 }
 
 .footer {
-  height: 72px;
   background: #eee;
   color: darkmagenta;
+  background-color: rgb(204, 204, 204);
+  height: 50px;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  padding: auto;
+  bottom: 0;
+  justify-content: center;
+  width: 100%;
+  flex: 1;
 }
 
 .sidebar {
   width: 300px;
   background: royalblue;
   box-sizing: border-box;
+  padding: 0px;
+  display: flex;
+  height: 100%;
+  text-align: center;
+  font-size: 30px;
+}
+.li {
+
 }
 
 .card {
-  border: 1px solid #eee;
+  border: 2.5px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+  border-color: antiquewhite;
   border-radius: 4px;
+  flex: 1;
+  padding: 10px;
+}
+.main-content {
+  display: flex;
+  height: 800px;
+}
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  flex: 1;
+  margin: 0;
+  padding: 30px;
+  gap: 10px;
+  overflow-y: auto;  
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+ul {
+  list-style: none; 
+  padding: auto;
+  margin-top: 20px;
 }

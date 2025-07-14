@@ -20,6 +20,14 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  padding: 24px;
+  box-sizing: border-box;
+}
+
+.modal-header {
+  display: flex;
+  align-items: flex-start;
+  position: relative;
 }
 
 .icon {
@@ -33,6 +41,23 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-right: 16px;
+}
+
+.modal-text {
+  flex: 1;
+}
+
+.modal-text .title {
+  font-weight: 700;
+  margin: 0 0 8px 0;
+  font-size: 18px;
+}
+
+.modal-text .description {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.5;
 }
 
 .close-button {
@@ -48,12 +73,22 @@ body {
   justify-content: center;
   border: 1px solid #eee;
   padding: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.modal-footer {
+  margin-top: 24px;
+  display: flex;
+  gap: 12px;
 }
 
 button {
   cursor: pointer;
   padding: 8px 16px;
   border-radius: 8px;
+  font-family: Roboto, sans-serif;
 }
 
 button.continue {

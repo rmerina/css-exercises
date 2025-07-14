@@ -1,6 +1,7 @@
 body {
   max-width: 600px;
   margin: 0 auto;
+  padding: 20px;
 }
 
 .one {
@@ -8,14 +9,19 @@ body {
   border: 3px solid blue;
   /* CHANGE ME */
   padding: 0px;
-  margin: 0px;
+  margin: 20px 20px 20px 20px;
+  height: 70px;
+}
+.dibwan {
+  padding: auto;
+  margin: 20px;
 }
 
 .two {
   background: lightblue;
   border: 3px solid purple;
   /* CHANGE ME */
-  margin-bottom: 0px;
+  margin-bottom: 20px;
 }
 
 .three {
@@ -24,5 +30,9 @@ body {
   width: 200px;
   /* CHANGE ME */
   padding: 0px;
-  margin-left: 0px;
+  margin-left: 393px;
+  height: 70px;
+}
+.tri {
+  padding: 10px;
 }
